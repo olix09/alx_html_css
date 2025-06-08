@@ -1,74 +1,52 @@
-🦷 SmileSchool Landing Page
-A front-end replica of the SmileSchool homepage based on a Figma design, created using HTML5 and CSS3. This project is part of the HTML Advanced module and focuses on structure, styling, and layout replication using external assets and responsive design principles.
+# SmileSchool Landing Page
 
-📸 Preview
+Welcome to the **SmileSchool Landing Page** project! This project is a modern, responsive, and visually engaging landing page designed to showcase online smile tutorials and promote membership. Built with HTML and CSS, the design closely follows provided Figma mockups and includes advanced layout techniques and rich styling.
 
-🛠️ Built With
-HTML5
+## 🚀 Features
 
-CSS3 (external stylesheet)
+- Hero section with call-to-action
+- Profile highlights from smile professionals
+- Testimonial quote section
+- Popular tutorial previews (video card layout)
+- Free membership section with feature icons
+- FAQ section with structured question/answer layout
+- Footer with functional and styled social media icons
 
-Google Fonts: Source Sans Pro
+## 📁 File Structure
 
-Figma Design as UI Reference
+project/
+├── index.html
+├── styles.css
+├── CSS Advanced/
+│ ├── logo.png
+│ ├── 1.png, 2.png, 3.png, 4.png, 5.png
+│ ├── facebook.svg
+│ ├── twitter.svg
+│ └── instagram.svg
+├── images/
+│ ├── video1.jpg
+│ ├── author.jpg
+│ ├── smile-icon.png
 
-📁 Project Structure
-css
-Copy
-Edit
-SmileSchool/
-├── index.html          ← Main HTML file
-├── styles.css          ← Main CSS file
-└── images/             ← Assets used in the layout
-    ├── hero-bg.jpg
-    ├── avatar-phillip.png
-    ├── avatar-nannie.png
-    ├── avatar-bruce.png
-    └── avatar-henry.png
-📌 Features Implemented
-Hero section with background image and call-to-action
+> All image assets and icons are organized under `CSS Advanced/` and `images/` directories.
 
-Navigation bar (logo and menu)
+## 🎨 Design
 
-Prominent call-to-action button
+- Fonts: [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
+- Layout: Fully responsive using CSS Grid and Flexbox
+- Colors and typography are based on the provided Figma designs
+- Icons: SVGs used for crisp and scalable social icons
 
-Testimonial-style “Learn from the pros” section
+## 📱 Responsive Design
 
-Responsive layout with flexbox
+The page is optimized for multiple screen sizes including desktops, tablets, and mobile devices. Layout adjustments use media queries for better readability and accessibility across viewports.
 
-Styling that mimics the original Figma design
+## 🔗 Social Media Integration
 
-🚀 Getting Started
-To view the project locally:
+Social media icons are implemented using SVG images (or optionally Font Awesome). Each icon is clickable and ready to be linked to actual accounts.
 
-Clone or download this repository.
-
-Place your image assets inside the images/ folder.
-
-Open index.html in a web browser.
-
-No installation required — this is a fully static project.
-
-📷 Image Assets
-All image references (background and avatars) are placeholders — replace them with your actual project assets using the same filenames or update the paths in the HTML/CSS files accordingly.
-
-📚 Fonts
-This project uses Source Sans Pro, loaded via Google Fonts.
-
-If using the Figma .fig file and it requires Spin Cycle OT, download it manually and install it to match the full design.
-
-🧩 Coming Next
-Responsive Footer Section (with logo, copyright, social)
-
-More section implementations from the original Figma
-
-Mobile responsiveness
-
-Accessibility enhancements
-
-💡 Author
-Oli Alemayehu
-Computer Science student passionate about front-end development and UI design.
-
-📄 License
-This project is for educational use as part of the ALX HTML Advanced course.
+```html
+<!-- Example -->
+<a href="https://facebook.com/yourpage" target="_blank" rel="noopener">
+  <img src="CSS Advanced/facebook.svg" alt="Facebook" class="social-icon" />
+</a>
